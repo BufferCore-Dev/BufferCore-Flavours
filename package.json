@@ -1,0 +1,12 @@
+{
+  "name": "@buffercore/flavours",
+  "private": true,
+  "version": "0.0.0-development",
+  "description": "Reusable BufferCore Flavours and Foundation primitive overrides.",
+  "files": [
+    "flavours",
+    "buffercore-flavours.json",
+    "README.md",
+    "LICENSE"
+  ]
+}

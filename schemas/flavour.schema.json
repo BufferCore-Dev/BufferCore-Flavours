@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://buffercore.local/schemas/flavour.schema.json",
+  "title": "BufferCore Flavour",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "type", "id", "displayName", "overrides"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "type": { "type": "string", "const": "buffercore-flavour" },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "displayName": { "type": "string", "minLength": 1 },
+    "overrides": {
+      "type": "object",
+      "propertyNames": { "pattern": "^--bc-" },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    }
+  }
+}
