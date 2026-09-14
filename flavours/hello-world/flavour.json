@@ -173,10 +173,6 @@
   "semanticMappings": {
     "colour": {
       "light": {
-        "--bc-color-primary-*": "--bc-color-identity-ramp-1",
-        "--bc-color-secondary-*": "--bc-color-identity-ramp-2",
-        "--bc-color-accent-*": "--bc-color-identity-ramp-3",
-        "--bc-color-neutral-*": "--bc-color-neutral-50",
         "--bc-color-text-primary": "--bc-color-identity-ramp-1",
         "--bc-color-text-secondary": "--bc-color-identity-ramp-2",
         "--bc-color-text-accent": "--bc-color-identity-ramp-3",
@@ -315,10 +311,6 @@
         "--bc-color-surface-info-strong": "--bc-color-status-info-shade-50"
       },
       "dark": {
-        "--bc-color-primary-*": "--bc-color-identity-ramp-1",
-        "--bc-color-secondary-*": "--bc-color-identity-ramp-2",
-        "--bc-color-accent-*": "--bc-color-identity-ramp-3",
-        "--bc-color-neutral-*": "--bc-color-neutral-50",
         "--bc-color-text-primary": "--bc-color-identity-ramp-1",
         "--bc-color-text-secondary": "--bc-color-identity-ramp-2",
         "--bc-color-text-accent": "--bc-color-identity-ramp-3",
@@ -459,3 +451,4 @@
     }
   }
 }
+
